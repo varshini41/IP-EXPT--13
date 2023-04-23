@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>EMPLOYEE DETAILS</title>
+      </head>
+      <body>
+        <table border="1">
+          <tr>
+            <th>Name</th>
+            <th>Salary</th>
+          </tr>
+          <xsl:apply-templates select="students/student"/>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+  
+  <xsl:template match="employee">
+    <xsl:if test="salary='$50000'">
+      <tr bgcolor="#99FF99">
+        <td><xsl:value-of select="name"/></td>
+        <td><xsl:value-of select="salary"/></td>
+      </tr>
+    </xsl:if>
+    <xsl:if test="salary!='$50000'">
+      <tr>
+        <td><xsl:value-of select="name"/></td>
+        <td><xsl:value-of select="salary"/></td>
+      </tr>
+    </xsl:if>
+  </xsl:template>
+  
+</xsl:stylesheet>

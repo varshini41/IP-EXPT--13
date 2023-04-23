@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl "href="salary.xsl" ?>
+
+<employees>
+  <employee>
+    <name>AAA</name>
+    <salary>$30000</salary>
+  </employee>
+  <employee>
+    <name>BBB</name>
+    <salary>$50000</salary>
+  </employee>
+  <employee>
+    <name>CCC</name>
+    <salary>$50000</salary>
+  </employee>
+  <employee>
+    <name>CCC</name>
+    <salary>$20000</salary>
+  </employee>
+</employees>

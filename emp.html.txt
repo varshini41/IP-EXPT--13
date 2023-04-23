@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Employee details</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>AAA</td>
+        <td>$30000</td>
+      </tr>
+      <tr bgcolor="#99FF99">
+        <td>BBB</td>
+        <td>$50000</td>
+      </tr>
+      <tr bgcolor="#99FF99">
+        <td>CCC</td>
+        <td>$50000</td>
+      </tr>
+      <tr>
+        <td>DDD</td>
+        <td>$20000</td>
+      </tr>
+    </table>
+  </body>
+</html>
